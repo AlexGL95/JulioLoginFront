@@ -7,13 +7,15 @@ import { SinginComponent } from './Components/singin/singin.component';
 import { LoginComponent } from './Components/login/login.component';
 import { HomeComponent } from './Components/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PassComponent } from './pass/pass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SinginComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    PassComponent
   ],
   imports: [
     BrowserModule,
